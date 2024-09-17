@@ -1,0 +1,29 @@
+.topics{
+    border: 2px solid gray;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   background-color: rgba(219, 126, 65, 0.283);
+   justify-content:space-evenly;
+   align-items: center;
+   margin: auto;
+   border-radius: 10px;
+}
+.topics>a{
+    margin-top: 5%;
+}
+a{
+    color: rgb(172, 57, 141);
+}
+#cont{
+margin-top: 5%;
+display: block;
+margin: 15px auto;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

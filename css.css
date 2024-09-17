@@ -1,0 +1,12 @@
+.page{
+    border: 2px solid firebrick;
+    /* height: 100vh; */
+  
+    
+}
+.q1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid firebrick;
+    margin: 8px;
+}

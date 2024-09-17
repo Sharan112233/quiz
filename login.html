@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<link rel="stylesheet" href="log.css">
+
+<body>
+
+    <div class="loginform">
+
+        <div class="page">
+            <form action="">
+                <div class="ins"> <label for="username">Enter your username:</label><br><input type="email"
+                        placeholder="Enter your username"></div>
+
+                <div class="ins"> <label for="email">Email:</label><br><input type="email"
+                        placeholder="Enter your email"></div>
+                <div class="ins"> <label for="pasword">password:</label> <br> <input type="password"
+                        placeholder="set your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password"></div>
+               
+    <div class="log" ><label for="login"><a href="topic.html" ><input type="button" onclick="alerting()" value="Login" id="lo"></a></label></div>
+                        
+
+
+            </form>
+        </div>
+    </div>
+    <script>
+      function  alerting(){
+        alert("login successfully")
+      }
+    </script>
+</body>
+
+</html>
